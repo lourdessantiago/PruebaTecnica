@@ -1,4 +1,12 @@
-@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+@font-face {
+    font-family: 'Harry Potter';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Harry Potter'), url('../assets/fonts/HARRP___.woff') format('woff');
+}
+
+
 
 .title-app{
     font-family: 'Harry Potter', sans-serif;
