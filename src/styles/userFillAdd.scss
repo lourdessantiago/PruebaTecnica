@@ -1,0 +1,33 @@
+.boton-fav-agr{
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    position: absolute;
+    right: 108px;
+    top: 0;
+}
+.favoritos,
+.agregar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140.5px;
+    height: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: #6B63B5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+}
+.favoritos{
+    border-radius: 0px 0px 0px 8px;
+}
+.agregar{
+    border-radius: 0px 0px 8px 0px;
+}
+#icon-agr,
+#icon-fav{
+    width: 16px;
+    height: 17.37px;
+}

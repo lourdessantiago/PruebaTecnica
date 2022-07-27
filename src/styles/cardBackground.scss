@@ -1,0 +1,100 @@
+
+  .tarjeta {
+    width: 45%;
+    height: 265px;
+    border-radius: 16px;
+    display: flex;
+    overflow: hidden;
+    border-color: black;
+    border: 500px;
+    margin-top: 1em;
+  }
+  .tarjeta-imagen {
+    height: 100%;
+    width: 40%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarjeta-info {
+    height: 100%;
+    width: 60%;
+    background-color:white;
+  
+  }
+  .tarjeta-contiene-img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 150px;
+    width: 150px;
+  }
+  .img-tarjeta {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bg-howartz {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 36, 31, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  .info-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+  }
+  .container-info {
+    padding: 20px 25px 30px 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #374A59;
+  }
+
+    .desc span:nth-child(1) {
+    font-weight: bold;
+  }
+  .desc span:nth-child(1)::after {
+    content: ': ';
+  }
+  .desc{
+    margin: 0px;
+    margin-top: 2px;
+  }
+
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color:#081F32;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 46px;
+}
+.btn-fav{
+  width: 20px;
+  height: 22px;
+  color: #999999;
+
+}
+
+.house-bg-Gryffindor{
+  background: linear-gradient(135deg, #FF0000 0%, #FED482 100%);
+  }
+.house-bg-Slytherin{ 
+  background: linear-gradient(135deg, #1C792B 0%, #82E95E 100%);
+}
+.house-bg-Hufflepuff{ 
+  background: linear-gradient(135deg, #FFC700 0%, #FFF388 100%);
+}
+.house-bg-Ravenclaw{ 
+  background: linear-gradient(135deg, #0597B7 0%, #66D1FF 100%);
+}
+
+
