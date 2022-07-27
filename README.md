@@ -6,7 +6,7 @@
 
 
 <p align="left"><p/>
-- :fa-download: Clonar el repositorio porporcionado por GoNet.
+-  Clonar el repositorio porporcionado por GoNet.
 - <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="20" height="20"/> </a>Crear un nuevo proyecto con React ```npx create-react-app```.
 - Ejecutar el comando ```npm install```.
 - Ejecutar el comando ```npm start```.
